@@ -1,6 +1,5 @@
-import React from 'react'
-import {connect} from 'react-redux'
-
+import React        from 'react'
+import {connect}    from 'react-redux'
 const SongDetail = (props) => {
     const song = props.song
     if(!song)
